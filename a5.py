@@ -25,3 +25,9 @@ if(s == "true"):
 else:
     print("Wrong")
 
+print("Quiz is over")
+if score >= 3:
+    print("You win")
+else:
+    print("You lose")
+
