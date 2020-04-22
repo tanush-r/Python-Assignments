@@ -54,6 +54,7 @@ while True: #main loop
                     break
                 
             print("\n")
+        gameRunning = True
             
             
                 
