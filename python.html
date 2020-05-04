@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Scripts/styles.css">
+  <script>
+    function myFunction(){
+      document.getElementById("js").innerHTML = "Guido Van Rossum";
+      }
+  </script>
+  <title>Python</title>
+</head>
+
+<body>
+
+  <h1>Python</h1>
+  <h2>What is python? Why is it used?</h2>
+  <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects</p>
+  <h2>Images</h2>
+
+  <div class="row">
+  <div class="column">
+    <img src="images/python_logo.jpg" alt="Logo">
+  </div>
+  <div class="column">
+    <img src="images/python_code.jpg" alt="Code" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/python_guido.jpg" alt="Guido Van Rossum" style="width:80%">
+  </div>
+  </div>
+
+  <p>Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented, and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library</p>
+  <h2>Python Data Types:</h2>
+  <table style="width:100%">
+  <tr>
+    <th>Class</th>
+    <th>Description</th>
+    <th>Immutable?</th>
+  </tr>
+  <tr>
+    <td>bool</td>
+    <td>Boolean value</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>int</td>
+    <td>Integer Type</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>float</td>
+    <td>Floating point number</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>list</td>
+    <td>Set of objects</td>
+    <td>No</td>
+  </tr> 
+  <tr>
+    <td>tuple</td>
+    <td>Set of objects</td>
+    <td>Yes</td>
+  </tr> 
+  <tr>
+    <td>str</td>
+    <td>Character string</td>
+    <td>Yes</td>
+  </tr> 
+
+</table>
+<button type="button" onclick="myFunction()">Who invented Python?</button>
+<p id = "js"></p>
+</body>
+</html>
